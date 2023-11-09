@@ -1,0 +1,51 @@
+#btn {
+  padding: 1.5rem;
+  margin: auto;
+  display: block;
+  background-color: rgba(190, 51, 51, 0.849);
+  color: aliceblue;
+  border: none;
+  border-radius: 1rem;
+  font-weight: 600;
+  font-size: 1rem;
+}
+#btn:hover {
+  background-color: rgb(190, 51, 51);
+}
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.phone {
+  height: 15rem;
+  width: 15em;
+  overflow: hidden;
+  padding-block: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+div > img {
+  height: 100%;
+  width: 100%;
+  /* object-fit:cover; */
+  transition: 0.5s ease-in-out;
+}
+img:hover {
+  scale: 1.1;
+}
+
+img + p {
+  align-self: center;
+  font-weight: 700;
+}
+
+figure {
+  height: 12rem;
+  width: 12rem;
+}
+figure > img {
+  height: 100%;
+  width: 100%;
+}

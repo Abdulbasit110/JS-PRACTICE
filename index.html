@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>JS TASK</title>
+  </head>
+
+  <body>
+    <button id="btn" onclick="display()">Click me!</button>
+
+    <section>
+      <div id="iphone" class="phone">
+        <img src="./assets/images/Iphone.jpg" alt="iphone" onclick="nameAlert(0)" />
+        <p>IPHONE</p>
+      </div>
+
+      <div id="redmi" class="phone">
+        <img src="./assets/images/Redmi.jpg" alt="redmi" onclick="nameAlert(1)" />
+        <p>REDMI</p>
+      </div>
+
+      <div id="xiaomi" class="phone">
+        <img src="./assets/images/Xiaomi.png" alt="xiaomi" onclick="nameAlert(2)" />
+        <p>XIAOMI</p>
+      </div>
+
+      <div id="oppo" class="phone">
+        <img src="./assets/images/oppo.jpg" alt="oppo" onclick="nameAlert(3)"/>
+        <p>OPPO</p>
+      </div>
+    </section>
+
+    <section>
+      <table>
+        <tr>
+          <th>INDEX</th>
+          <th>NAME</th>
+          <th>CLASS</th>
+        </tr>
+        <tr id="0">
+          <td>0</td>
+          <td>Jhone</td>
+          <td>10</td>
+          <td><button onclick="deleteRow(0)">DELETE</button></td>
+        </tr>
+        <tr id="1">
+          <td>1</td>
+          <td>Doe</td>
+          <td>10</td>
+          <td><button onclick="deleteRow(1)">DELETE</button></td>
+        </tr>
+        <tr id="2">
+          <td>2</td>
+          <td>James</td>
+          <td>9</td>
+          <td><button onclick="deleteRow(2)">DELETE</button></td>
+        </tr>
+        <tr id="3">
+          <td>3</td>
+          <td>Mark</td>
+          <td>9</td>
+          <td><button onclick="deleteRow(3)">DELETE</button></td>
+        </tr>
+        </tr>
+        <tr id="4">
+          <td>4</td>
+          <td>Usman</td>
+          <td>9</td>
+          <td><button onclick="deleteRow(4)">DELETE</button></td>
+        </tr>
+        </tr>
+        <tr id="5">
+          <td>5</td>
+          <td>Karim</td>
+          <td>10</td>
+          <td><button onclick="deleteRow(5)">DELETE</button></td>
+        </tr>
+        </tr>
+        <tr id="6">
+          <td>6</td>
+          <td>Amjad</td>
+          <td>8</td>
+          <td><button onclick="deleteRow(6)">DELETE</button></td>
+        </tr>
+        </tr>
+        <tr id="7">
+          <td>7</td>
+          <td>Ahmed</td>
+          <td>9</td>
+          <td><button onclick="deleteRow(7)">DELETE</button></td>
+        </tr>
+        </tr>
+        <tr id="8">
+          <td>8</td>
+          <td>Ameen</td>
+          <td>7</td>
+          <td><button onclick="deleteRow(8)">DELETE</button></td>
+        </tr>
+        </tr>
+        <tr id="9">
+          <td>9</td>
+          <td>Khwaja</td>
+          <td>6</td>
+          <td><button onclick="deleteRow(9)">DELETE</button></td>
+        </tr>
+        </tr>
+        <tr id="10">
+          <td>10</td>
+          <td>Barik</td>
+          <td>10</td>
+          <td><button onclick="deleteRow(10)">DELETE</button></td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <figure>
+        <img
+          onmouseover="src='./assets/images/Xiaomi.png'"
+          onmouseout="src='./assets/images/Iphone.jpg'"
+          src="./assets/images/Iphone.jpg"
+          alt="Iphone"
+        />
+      </figure>
+    </section>
+
+    <section>
+      <button onclick="subtracter()">-</button>
+      <input id="counter" type="text" value="0" />
+      <button onclick="adder()">+</button>
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>
